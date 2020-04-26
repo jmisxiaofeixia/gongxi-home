@@ -1,0 +1,63 @@
+@import "../../App.css";
+
+.page{
+
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(136, 135, 135);
+}
+
+.slogan-panel {
+	display: flex;
+	flex-direction: column;
+	margin-right: -72px;
+}
+
+.slogan{
+	font-size: 36px;
+}
+
+.slogan-chinese {
+	font-size: 43px;
+}
+
+.img {
+	padding-top: 30px;
+}
+
+.line{
+	height: 10px;
+	background-color: rgb(218, 41, 59);
+}
+
+.what-to-do{
+	display: flex;
+	justify-content: center;
+	padding-top: 24px;
+	background-color: rgb(246, 246, 246);
+}
+
+.list {
+	display: flex;
+}
+
+.list .list-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 24px;
+}
+
+.list img {
+	height: 129px;
+	width: 129px;
+	margin: 24px;
+}
+
+.what-to-do .title {
+	font-size: 37px;
+}
